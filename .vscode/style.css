@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 800px;
+    margin-inline: auto;
+}
+
+header{
+    height: 60px;
+    background-color: cadetblue;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.download-block{
+    display: flex;
+}
+
+.download-block input{
+    height: 60px;
+    width: 100px;
+}
+
+.download-btn{
+    display: flex;
+    align-items: center;
+    height: 60px;
+
+}
